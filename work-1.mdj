@@ -309,7 +309,7 @@
 											"top": 695,
 											"width": 154.55908203125,
 											"height": 13,
-											"text": "BDC_DomainInformation"
+											"text": "BDC_Domain"
 										},
 										{
 											"_type": "LabelView",
@@ -5145,7 +5145,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "BDC_DomainInformation",
+					"name": "BDC_Domain",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
