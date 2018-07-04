@@ -1097,7 +1097,7 @@
 											"top": 478,
 											"width": 110.92529296875,
 											"height": 13,
-											"text": "+modifiedDate[1..*]",
+											"text": "+modifiedDate[1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -5351,7 +5351,7 @@
 							},
 							"name": "modifiedDate",
 							"type": "",
-							"multiplicity": "1..*"
+							"multiplicity": "1"
 						},
 						{
 							"_type": "UMLAttribute",
