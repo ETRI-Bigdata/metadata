@@ -186,7 +186,7 @@
 											"top": 507,
 											"width": 121.77978515625,
 											"height": 13,
-											"text": "+catalogVersion[0..1]",
+											"text": "+version[0..1]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -5133,9 +5133,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWrd5gM1TQME="
 							},
-							"name": "catalogVersion",
-							"type": "",
-							"multiplicity": "0..1"
+							"name": "version[0..1]"
 						}
 					]
 				},
