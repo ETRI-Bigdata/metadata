@@ -4023,17 +4023,17 @@
 										"$ref": "AAAAAAFkW1lS+4UgXtw="
 									},
 									"font": "Arial;13;0",
-									"left": 567,
+									"left": 552,
 									"top": 566,
 									"width": 117.43798828125,
 									"height": 13,
-									"alpha": 3.775825659134766,
-									"distance": 45.27692569068709,
+									"alpha": 3.869186373528629,
+									"distance": 29.614185789921695,
 									"hostEdge": {
 										"$ref": "AAAAAAFkW1lS+4Uk5N0="
 									},
 									"edgePosition": 1,
-									"text": "+dataSetInformation"
+									"text": "+dataSet"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -4569,17 +4569,17 @@
 										"$ref": "AAAAAAFkW21gC5NakCo="
 									},
 									"font": "Arial;13;0",
-									"left": 623,
+									"left": 656,
 									"top": 784,
 									"width": 125.37255859375,
 									"height": 13,
-									"alpha": -4.6217288731410076,
-									"distance": 77.31752712031083,
+									"alpha": -4.554619999190911,
+									"distance": 44.553338819890925,
 									"hostEdge": {
 										"$ref": "AAAAAAFkW21gDJNehHA="
 									},
 									"edgePosition": 1,
-									"text": "+distributeInformation"
+									"text": "+distribution"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -5589,7 +5589,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWvk2B2Mt4Fg="
 							},
-							"name": "dataSetInformation",
+							"name": "dataSet",
 							"end1": {
 								"_type": "UMLAssociationEnd",
 								"_id": "AAAAAAFkW1lS+4Uh0o8=",
@@ -5728,7 +5728,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWvmiAWNyJ+0="
 							},
-							"name": "distributeInformation",
+							"name": "distribution",
 							"end1": {
 								"_type": "UMLAssociationEnd",
 								"_id": "AAAAAAFkW21gC5NbXSU=",
