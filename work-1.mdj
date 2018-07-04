@@ -398,7 +398,7 @@
 											"top": 733,
 											"width": 154.55908203125,
 											"height": 13,
-											"text": "+taxonomyInfo[1..*]",
+											"text": "+taxonomyUri[1..*]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -5445,9 +5445,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWsDLcc2dlSw="
 							},
-							"name": "taxonomyInfo",
-							"type": "",
-							"multiplicity": "1..*"
+							"name": "taxonomyUri[1..*]"
 						}
 					]
 				},
