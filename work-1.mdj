@@ -381,7 +381,7 @@
 											"top": 718,
 											"width": 154.55908203125,
 											"height": 13,
-											"text": "+commonName",
+											"text": "+title",
 											"horizontalAlignment": 0
 										},
 										{
@@ -5217,8 +5217,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWsDLcc2dlSw="
 							},
-							"name": "commonName",
-							"type": ""
+							"name": "title"
 						},
 						{
 							"_type": "UMLAttribute",
