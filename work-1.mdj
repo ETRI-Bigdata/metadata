@@ -1977,7 +1977,7 @@
 											"top": 639,
 											"width": 153.8544921875,
 											"height": 13,
-											"text": "BDC_DatasetInformation"
+											"text": "BDC_Dataset"
 										},
 										{
 											"_type": "LabelView",
@@ -2223,7 +2223,7 @@
 											"top": 839,
 											"width": 189.69970703125,
 											"height": 13,
-											"text": "BDC_DistributionInformation"
+											"text": "BDC_Distribution"
 										},
 										{
 											"_type": "LabelView",
@@ -2486,7 +2486,7 @@
 											"top": 871,
 											"width": 168.2763671875,
 											"height": 13,
-											"text": "BDC_DataRightInformation"
+											"text": "BDC_DataRight"
 										},
 										{
 											"_type": "LabelView",
@@ -5551,7 +5551,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "BDC_DatasetInformation",
+					"name": "BDC_Dataset",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -5690,7 +5690,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "BDC_DistributionInformation",
+					"name": "BDC_Distribution",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -5811,7 +5811,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "BDC_DataRightInformation",
+					"name": "BDC_DataRight",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
