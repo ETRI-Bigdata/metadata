@@ -2575,7 +2575,7 @@
 											"top": 886,
 											"width": 222.19970703125,
 											"height": 13,
-											"text": "+rightStatement[0..1]",
+											"text": "+rightsStatement[0..1]",
 											"horizontalAlignment": 0
 										},
 										{
@@ -5376,7 +5376,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWrd5gM1TQME="
 							},
-							"name": "version[0..1]"
+							"name": "version[0..1]",
+							"type": ""
 						}
 					]
 				},
@@ -5458,7 +5459,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWsDLcc2dlSw="
 							},
-							"name": "title"
+							"name": "title",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5466,7 +5468,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWsDLcc2dlSw="
 							},
-							"name": "taxonomyUri[1..*]"
+							"name": "taxonomyUri[1..*]",
+							"type": ""
 						}
 					]
 				},
@@ -6068,9 +6071,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWvnX2mO3e/0="
 							},
-							"name": "rightStatement",
-							"type": "",
-							"multiplicity": "0..1"
+							"name": "rightsStatement[0..1]"
 						},
 						{
 							"_type": "UMLAttribute",
