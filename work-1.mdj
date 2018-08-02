@@ -398,7 +398,7 @@
 											"top": 733,
 											"width": 154.55908203125,
 											"height": 13,
-											"text": "+taxonomyUri[1..*]",
+											"text": "+taxonomy[1..*]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2592,7 +2592,7 @@
 											"top": 901,
 											"width": 222.19970703125,
 											"height": 13,
-											"text": "+licenseUri[0..*]",
+											"text": "+license[0..*]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -4067,7 +4067,7 @@
 										"$ref": "AAAAAAFkW1lS+4Uk5N0="
 									},
 									"edgePosition": 1,
-									"text": "+dataSet"
+									"text": "+dataset"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -5167,8 +5167,9 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWrd5gM1TQME="
 							},
-							"name": "version[0..1]",
-							"type": ""
+							"name": "version",
+							"type": "",
+							"multiplicity": "0..1"
 						}
 					]
 				},
@@ -5259,8 +5260,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWsDLcc2dlSw="
 							},
-							"name": "taxonomyUri[1..*]",
-							"type": ""
+							"name": "taxonomy",
+							"multiplicity": "1..*"
 						}
 					]
 				},
@@ -5621,7 +5622,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWvk2B2Mt4Fg="
 							},
-							"name": "dataSet",
+							"name": "dataset",
 							"end1": {
 								"_type": "UMLAssociationEnd",
 								"_id": "AAAAAAFkW1lS+4Uh0o8=",
@@ -5862,7 +5863,9 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWvnX2mO3e/0="
 							},
-							"name": "rightsStatement[0..1]"
+							"name": "rightsStatement",
+							"type": "",
+							"multiplicity": "0..1"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5870,7 +5873,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWvnX2mO3e/0="
 							},
-							"name": "licenseUri",
+							"name": "license",
+							"type": "",
 							"multiplicity": "0..*"
 						}
 					]
