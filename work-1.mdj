@@ -186,7 +186,7 @@
 											"top": 507,
 											"width": 121.77978515625,
 											"height": 13,
-											"text": "+version[0..1]",
+											"text": "+versionInfo[0..1]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1468,7 +1468,7 @@
 											"top": 300,
 											"width": 136.982421875,
 											"height": 13,
-											"text": "BCD_ContactType"
+											"text": "BDC_ContactType"
 										},
 										{
 											"_type": "LabelView",
@@ -1591,7 +1591,7 @@
 											"top": 368,
 											"width": 136.982421875,
 											"height": 13,
-											"text": "+houseOfServices[0..1]",
+											"text": "+hoursOfServices[0..1]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1854,7 +1854,7 @@
 											"top": 514,
 											"width": 199,
 											"height": 13,
-											"text": "+contact: BCD_ContactType",
+											"text": "+contact: BDC_ContactType",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2346,7 +2346,7 @@
 											"top": 892,
 											"width": 189.69970703125,
 											"height": 13,
-											"text": "+dataSize",
+											"text": "+byteSize",
 											"horizontalAlignment": 0
 										},
 										{
@@ -5167,7 +5167,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWrd5gM1TQME="
 							},
-							"name": "version",
+							"name": "versionInfo",
 							"type": "",
 							"multiplicity": "0..1"
 						}
@@ -5261,6 +5261,7 @@
 								"$ref": "AAAAAAFkWsDLcc2dlSw="
 							},
 							"name": "taxonomy",
+							"type": "",
 							"multiplicity": "1..*"
 						}
 					]
@@ -5443,7 +5444,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "BCD_ContactType",
+					"name": "BDC_ContactType",
 					"stereotype": "DataType",
 					"attributes": [
 						{
@@ -5482,7 +5483,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWvh8tmKaRik="
 							},
-							"name": "houseOfServices",
+							"name": "hoursOfServices",
 							"type": "",
 							"multiplicity": "0..1"
 						}
@@ -5825,8 +5826,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFkWvmiAWNyJ+0="
 							},
-							"name": "dataSize",
-							"type": ""
+							"name": "byteSize"
 						},
 						{
 							"_type": "UMLAttribute",
